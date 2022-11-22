@@ -20,7 +20,7 @@
     align-items: flex-start;
     justify-content: space-evenly;
 }
-#question-user label{
-    display: flex;
-    flex-direction: row;    
+label{
+    display: inline-block;
+    
 }
