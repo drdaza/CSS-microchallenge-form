@@ -10,15 +10,16 @@
 <body>
     <h1 id="title">GeeksforGeeks Survey Form</h1>
     <section id="section-form">
-        <form>
+        <form method="dialog">
             <div id="info-user">
-                <label for="name">Name: <input type="text" name="name" id="name">
+                <label for="name">Name: <input class="information-form" type="text" name="name" id="name">
                 </label>
             
-                <label for="email">Email: <input type="email" name="email" id="email">
+                <label for="email">Email: <input class="information-form" type="email" name="email" id="email">
                 </label>
             
-                <label for="selection">Wich option best describe you: <select name="selection" id="selection">
+                <label for="selection">Wich option best describe you: 
+                    <select  class="information-form" name="selection" id="selection">
                         <option value="a">a</option>
                         <option value="b">b</option>
                         <option value="c">c</option>
@@ -31,31 +32,31 @@
                 <fieldset>
                     <legend>Would you recommend GeekforGeeks: </legend>
                     <label for="yes">
-                        <input type="radio" name="recomend-us" id="yes" class="inline">yes
+                        <input type="radio" name="recomend-us" id="yes" class="inline information-form">yes
                     </label>
                     <label for="no" >
-                        <input type="radio" name="recomend-us" id="no" class="inline">no
+                        <input type="radio" name="recomend-us" id="no" class="inline information-form">no
                     </label>
                     <label for="maybe" >
-                        <input type="radio" name="recomend-us" id="maybe" class="inline">maybe
+                        <input  type="radio" name="recomend-us" id="maybe" class="inline information-form">maybe
                     </label>
                 </fieldset>
-                <fieldset>
+                <fieldset >
                     <legend> Language and Frameworks known: </legend>
                     <label for="css">
-                        <input type="checkbox" name="css" id="css" class="inline">css
+                        <input type="checkbox" name="css" id="css" class="inline information-form">css
                     </label>
                     <label for="java">
-                        <input type="checkbox" name="java" id="java" class="inline">java</label>
+                        <input type="checkbox" name="java" id="java" class="inline information-form">java</label>
                     <label for="javascript">
-                        <input type="checkbox" name="javascript" id="javascript" class="inline">JavaScript
+                        <input type="checkbox" name="javascript" id="javascript" class="inline information-form">JavaScript
                     </label>
                     <label for="phyton">
-                        <input type="checkbox" name="phyton" id="phyton" class="inline">Phyton
+                        <input  type="checkbox" name="phyton" id="phyton" class="inline information-form">Phyton
                     </label>
                 </fieldset>
                 
-                <label for="space-text">Note: <textarea name="space-text" id="space-text" cols="30" rows="10"></textarea>
+                <label for="space-text">Note: <textarea class="information-form" name="space-text" id="space-text" cols="30" rows="10"></textarea>
                 </label>
                 <button type="submit" id="submit-button">Sumbit</button>
             </div>
