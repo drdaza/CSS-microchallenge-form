@@ -14,10 +14,10 @@
             <div id="info-user">
                 <label for="name">Name: <input type="text" name="name" id="name">
                 </label>
-                
+            
                 <label for="email">Email: <input type="email" name="email" id="email">
                 </label>
-                
+            
                 <label for="selection">Wich option best describe you: <select name="selection" id="selection">
                         <option value="a">a</option>
                         <option value="b">b</option>
@@ -25,21 +25,39 @@
                         <option value="d">d</option>
                     </select>
                 </label>
-                
+            
             </div>
             <div id="question-user">
-                <label for="question">Would you recommend GeekforGeeks</label>
-                <input type="radio" name="yes" id="yes">yes
-                <input type="radio" name="no" id="no">no 
-                <input type="radio" name="maybe" id="maybe">maybe
-                <label for="leguage">Lenguage: </label>
-                <input type="checkbox" name="" id=""> #cs
-                <input type="checkbox" name="" id=""> Java
-                <input type="checkbox" name="" id="">JavaScript
-                <input type="checkbox" name="" id="">  c++
-                <input type="checkbox" name="" id=""> php
-                <label for="space-text">Note: </label>
-                <textarea name="space-text" id="space-text" cols="30" rows="10"></textarea>
+                <fieldset>
+                    <legend>Would you recommend GeekforGeeks: </legend>
+                    <label for="yes">
+                        <input type="radio" name="recomend-us" id="yes" class="inline">yes
+                    </label>
+                    <label for="no" >
+                        <input type="radio" name="recomend-us" id="no" class="inline">no
+                    </label>
+                    <label for="maybe" >
+                        <input type="radio" name="recomend-us" id="maybe" class="inline">maybe
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend> Language and Frameworks known: </legend>
+                    <label for="css">
+                        <input type="checkbox" name="css" id="css" class="inline">css
+                    </label>
+                    <label for="java">
+                        <input type="checkbox" name="java" id="java" class="inline">java</label>
+                    <label for="javascript">
+                        <input type="checkbox" name="javascript" id="javascript" class="inline">JavaScript
+                    </label>
+                    <label for="phyton">
+                        <input type="checkbox" name="phyton" id="phyton" class="inline">Phyton
+                    </label>
+                </fieldset>
+                
+                <label for="space-text">Note: <textarea name="space-text" id="space-text" cols="30" rows="10"></textarea>
+                </label>
+                
             </div>
         </form>
     </section>

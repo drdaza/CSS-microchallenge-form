@@ -20,7 +20,34 @@
     align-items: flex-start;
     justify-content: space-evenly;
 }
+
 label{
-    display: inline-block;
-    
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select{
+    margin: 1vh 0 0 0;
+    width: 100%;
+    min-height: 1.4em;
+}
+
+input,
+textarea{
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+.inline{
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
